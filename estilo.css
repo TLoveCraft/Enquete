@@ -1,0 +1,86 @@
+.white-ball {
+  bottom: -30px;
+  left: 650px;
+  position: relative;
+  background-color: yellow;
+  width: 300px;
+  height: 300px;
+  border-radius: 400px;
+  text-align: center;
+  font-size: 50px;
+}
+.button {
+  bottom: -50px;
+  left: 600px;
+  position: relative;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 26px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 9px #666;
+  transform: translateY(4px);
+}
+.button-Nao {
+  bottom: -50px;
+  left: 800px;
+  position: relative;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 26px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: red;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button-Nao:hover {
+  background-color: rgb(178, 11, 11);
+}
+
+.button-Nao:active {
+  background-color: rgb(178, 11, 11);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.Results {
+  top: 100px;
+  right: 500px;
+  position: relative;
+  margin: 0 auto;
+  width: 300px;
+  color: green;
+  text-align: left;
+  font-size: x-large;
+  justify-content: center;
+}
+#sim {
+  background-color: blue;
+  width: 3px;
+  height: 20px;
+}
+#nao {
+  background-color: black;
+  width: 1px;
+  height: 20px;
+}
